@@ -1,0 +1,43 @@
+.animated-background {
+
+  background: linear-gradient(
+    270deg,
+    #ffecd2,
+    #000000,
+    #ffecd2
+  );
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Optional: Add some text contrast */
+.AboutUsSection {
+   
+  background: linear-gradient(
+    270deg,
+    #ffecd2,
+    #000000,
+    #ffecd2
+  );
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+  min-height: 100vh;
+
+
+} 
