@@ -5,7 +5,7 @@ import pizza3 from "../images/About Image/Double-Deal-Small.webp";
 import pizza4 from "../images/About Image/Treat-Meal.webp";
 import pizza5 from "../images/About Image/Roma-Box-2-1024x384.webp";
 import pizza6 from "../images/About Image/Triple-Box_Banner-1024x384.webp";
-
+import '../Offers/Offers.css'
 import {
   Carousel,
   CarouselItem,
@@ -34,19 +34,18 @@ const items = [
   },
   {
     src: pizza4,
-    altText: 'Margherita',
-    caption: 'A Margherita pizza is a classic Italian pizza known for its simple yet delicious ingredients. It typically features a thin and crispy crust, lightly charred from the oven. The base is spread with a bright, tangy tomato sauce, made from fresh tomatoes. On top, there’s a generous layer of creamy, melted mozzarella cheese, which blends beautifully with the red sauce beneath it. Fresh basil leaves are scattered across the pizza, adding a burst of herbal flavor and a pop of vibrant green color. The combination of tomatoes, mozzarella, and basil represents the colors of the Italian flag, making it a timeless favorite.',
-    key: 3,
+    altText: 'Corn',
+    caption: 'Corn pizza is a unique twist on the classic pie, combining the sweet crunch of corn with the savory flavors of cheese and other toppings. Often paired with creamy mozzarella, tangy tomato sauce, and sometimes a hint of herbs like basil or oregano, corn adds a refreshing balance of texture and flavor. It\'s a popular choice in many parts of the world, especially in regions that love sweet-savory combinations. Whether baked in a traditional oven or cooked in a wood-fired one, corn pizza offers a delicious, satisfying experience for those looking to try something different from the usual pepperoni',
   },
   {
     src: pizza5,
-    altText: 'Margherita',
-    caption: 'A Margherita pizza is a classic Italian pizza known for its simple yet delicious ingredients. It typically features a thin and crispy crust, lightly charred from the oven. The base is spread with a bright, tangy tomato sauce, made from fresh tomatoes. On top, there’s a generous layer of creamy, melted mozzarella cheese, which blends beautifully with the red sauce beneath it. Fresh basil leaves are scattered across the pizza, adding a burst of herbal flavor and a pop of vibrant green color. The combination of tomatoes, mozzarella, and basil represents the colors of the Italian flag, making it a timeless favorite.',
+    altText: 'Vegetable',
+    caption: 'Vegetable pizza is a vibrant and healthy take on the classic favorite. This pizza combines the natural sweetness of corn with a variety of fresh vegetables like bell peppers, onions, tomatoes, mushrooms, and olives. Topped with creamy mozzarella and a flavorful tomato or pesto base, it offers a delightful mix of textures and flavors. Packed with nutrients and bursting with color, it\'s perfect for those seeking a wholesome, plant-forward meal without sacrificing taste. Whether enjoyed as a quick weeknight dinner or a party snack, corn and vegetable pizza is a crowd-pleaser thats both delicious and nutritious.',
     key: 3,
   }, {
     src: pizza6,
-    altText: 'Margherita',
-    caption: 'A Margherita pizza is a classic Italian pizza known for its simple yet delicious ingredients. It typically features a thin and crispy crust, lightly charred from the oven. The base is spread with a bright, tangy tomato sauce, made from fresh tomatoes. On top, there’s a generous layer of creamy, melted mozzarella cheese, which blends beautifully with the red sauce beneath it. Fresh basil leaves are scattered across the pizza, adding a burst of herbal flavor and a pop of vibrant green color. The combination of tomatoes, mozzarella, and basil represents the colors of the Italian flag, making it a timeless favorite.',
+    altText: 'Triple Box',
+    caption: 'A Triple Box pizza is a hearty and flavorful option that packs a punch of taste in every bite. It typically features a generous amount of toppings, including multiple layers of cheese, meats, and vegetables. The base is often pre-baked to enhance its crispiness before adding a generous amount of tomato sauce. The combination of multiple toppings creates a rich, complex flavor profile that appeals to those who enjoy a robust pizza experience. Whether enjoyed as a family meal or a special treat, a Triple Box pizza is sure to satisfy cravings for a delicious and satisfying slice.',
     key: 3,
   },
 ];
@@ -85,7 +84,20 @@ export function Offers(args) {
       >
         <img className="ImageCarsoule ms-auto h-100 w-100 d-flex" src={item.src} alt={item.altText} />
         <div className="Hover">
-          <h6>{item.caption}</h6>
+
+     <div className="HoverSystem">
+  
+     <div className="solar-system">
+      <div className="sun"></div>
+      <div className="planet"></div>
+      <div className="planet"></div>
+    </div>
+
+     <h6>{item.caption}</h6>
+
+
+
+     </div>
         </div>
       </CarouselItem>
     );

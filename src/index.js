@@ -19,7 +19,7 @@ import Layout from './Components/Layout/Layout.jsx';
       {path:'',element:<Carsoule/>},
       {path:'About',element:<About/>},
       {path:'Offers',element:<Offers/>},
-      {path:'about-us',element:<AboutUs/>},
+      {path:'aboutus',element:<AboutUs/>},
 
   ]}
 ]);

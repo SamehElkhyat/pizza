@@ -1,4 +1,4 @@
-import { Link, TextField } from '@mui/material'
+import {TextField } from '@mui/material'
 import React from 'react'
 import logo from '../images/SideBarLogo.png'
 function SideBar() {
@@ -14,15 +14,15 @@ function SideBar() {
                                 variant="outlined"
                         />
                         <div className="menuBottom">
-                                <h4 className='menuBottom1'><Link className='text-decoration-none' rel="stylesheet" href="Offers" >Offers</Link></h4>
-                                <h4 className='menuBottom2'><Link className='text-decoration-none' rel="stylesheet" href="About" >Menu</Link></h4>
-                                <h4 className='menuBottom3'><Link className='text-decoration-none' rel="stylesheet" href="Pizza" >Pizza</Link></h4>
-                                <h4 className='menuBottom4'><Link className='text-decoration-none' rel="stylesheet" href="AboutUs" >AboutUs</Link></h4>
+                                <a className='menuBottom1 text-decoration-none' rel="stylesheet" href="Offers" >Offers</a>
+                                <a className='menuBottom2 text-decoration-none' rel="stylesheet" href="About" >Menu</a>
+                                <a className='menuBottom3 text-decoration-none' rel="stylesheet" href="Pizza" >Pizza</a>
+                                <a className='menuBottom4 text-decoration-none' rel="stylesheet" href="AboutUs" >AboutUs</a>
                         </div>
                         <a className="text-decoration-none position-absolute bottom-0 text-white" href="https://www.linkedin.com/in/sameh-salih-02179b271/">
                                 ©2024::SamehELkhayat
                         </a>
-                </div>
+                </div> 
         </ >
 }
 export default SideBar
