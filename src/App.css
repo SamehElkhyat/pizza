@@ -69,6 +69,58 @@ body {
 }
 
 /* Carsoule  */
+
+.LandingPage {
+  background-color: #1f0000;
+  width: 100%;
+  height: 100vh;
+}
+
+.LandingPage .BannerSection {
+  background-size: cover !important;
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+}
+
+.LandingPage .Hover {
+  position: relative !important;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.681);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hover .HoverSystem {
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px 1px rgba(0, 0, 0, 0.2),
+    10px 14px 5px 0px rgba(0, 0, 0, 0.14),
+    10px 11px 10px 10px rgba(0, 0, 0, 0.12);  
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 75%;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+
+}
+
+.HoverSystem h6{
+  color: var(--fOURTY-color) !important;
+  transition: all 0.3s;
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+}
 .ImageCarsoule {
   background-size: cover !important;
   position: absolute;
@@ -90,12 +142,31 @@ body {
 }
 
 .CarouselItem .Hover h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--secondry-color) !important;
   color: var(--primary--);
-  font-size: 20px;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
   font-weight: 900;
   transition: all 0.9s;
   transition-duration: 0.9s;
   transition-delay: 0.9s;
+}
+
+@media (max-width: 768px) {
+  .CarouselItem .Hover h6 {
+    font-size: 0.9rem; /* Smaller size for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .CarouselItem .Hover h6 {
+    font-size: 0.8rem; /* Even smaller size for mobile phones */
+  }
 }
 
 .css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
@@ -257,61 +328,6 @@ h6 {
   overflow: hidden;
 }
 
-/*================================/*/
-.LandingPage {
-  background-color: #1f0000;
-  width: 100%;
-  height: 100vh;
-}
-
-.LandingPage .BannerSection {
-  background-size: cover !important;
-  position: absolute !important;
-  width: 100%;
-  height: 100%;
-}
-
-.LandingPage .Hover {
-  position: relative !important;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.681);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.Hover .HoverSystem {
-  border-radius: 10px;
-  box-shadow: 10px 20px 40px 1px rgba(0, 0, 0, 0.2),
-    10px 14px 5px 0px rgba(0, 0, 0, 0.14),
-    10px 11px 10px 10px rgba(0, 0, 0, 0.12);  
-  position: absolute;
-  left: 0;
-  width: 50%;
-  background-color: var(--secondry-color);
-  height: 75%;
-  margin: 30px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s;
-  transition-duration: 0.3s;
-  transition-delay: 0.3s;
-
-}
-
-.HoverSystem h6{
-  color: var(--fOURTY-color) !important;
-  transition: all 0.3s;
-  transition-duration: 0.3s;
-  transition-delay: 0.3s;
-}
-
-/*---------/*/
 .AboutPage {
   height: 100vh;
 }
@@ -416,6 +432,18 @@ h6 {
 @media screen and (max-width: 487px) {
   .h1Item span {
     font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .h1Item span {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .h1Item span {
+    font-size: 35px;
   }
 }
 
