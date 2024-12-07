@@ -1,7 +1,7 @@
 * {
   font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
-  font-family: fantasy;
 }
 #AboutAllInfo{
   background-color: var(--secondry-color) !important;
