@@ -435,6 +435,11 @@ h6 {
     font-size: 50px;
   }
 }
+@media screen and (max-width: 430px) {
+  .h1Item span {
+    font-size: 45px; /* Adjusted size for iPhone 12 Pro Max */
+  }
+}
 
 @media screen and (max-width: 400px) {
   .h1Item span {
