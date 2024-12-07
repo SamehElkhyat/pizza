@@ -403,48 +403,64 @@ h6 {
 @media screen and (max-width: 963px) {
   .h1Item span {
     font-size: 90px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 720px) {
   .h1Item span {
     font-size: 80px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 641px) {
   .h1Item span {
     font-size: 70px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 563px) {
   .h1Item span {
     font-size: 65px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 524px) {
   .h1Item span {
     font-size: 60px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 487px) {
   .h1Item span {
     font-size: 50px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 400px) {
   .h1Item span {
     font-size: 40px;
+      font-family: fantasy !important;
+
   }
 }
 
 @media screen and (max-width: 320px) {
   .h1Item span {
     font-size: 35px;
+      font-family: fantasy !important;
+
   }
 }
 
