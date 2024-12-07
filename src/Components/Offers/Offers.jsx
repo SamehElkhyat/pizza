@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import pizza1 from "../images/About Image/Double-Deal-Large.webp";
 import pizza2 from "../images/About Image/Double-Deal-Medium.webp";
 import pizza3 from "../images/About Image/Double-Deal-Small.webp";

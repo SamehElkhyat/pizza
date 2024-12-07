@@ -1,6 +1,5 @@
 body {
   background-color: var(--secondry-color);
-  font-family: Georgia, 'Times New Roman', Times, serif;
   color: var(--primary-color) !important;
 
 }
@@ -392,7 +391,6 @@ h6 {
 /*---------/*/
 .h1Item span {
   position: relative;
-  font-family: fantasy !important;
   color: var(--fOURTY-color);
   text-align: center;
   font-size: 120px;
